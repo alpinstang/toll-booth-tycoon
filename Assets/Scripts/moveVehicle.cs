@@ -21,6 +21,8 @@ public class moveVehicle : MonoBehaviour
 
     void Start()
     {
+        GameObject tollBoothObject = GameObject.FindWithTag("Toll Booth");
+        target = tollBoothObject.GetComponent<Transform>();
         GameObject gameControllerObject = GameObject.FindWithTag("GameController");
         if (gameControllerObject != null)
         {
