@@ -6,6 +6,13 @@ TagManager:
   tags:
   - Toll Booth
   - Slow Marker
+  - Score
+  - Destructor
+  - Spawner
+  - car
+  - suv
+  - truck
+  - smuggler
   layers:
   - Default
   - TransparentFX
